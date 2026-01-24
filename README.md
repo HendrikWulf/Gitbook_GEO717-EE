@@ -9,6 +9,8 @@
 
 Google Earth Engine is a cloud-based platform that enables large-scale processing of geospatial data to detect changes, map trends, and quantify differences on the Earth’s surface. This course covers a range of topics in Earth Engine to give you practical skills to master the platform and implement your geoscience projects.
 
+This block course is offered by the [Geography Department at UZH](https://www.geo.uzh.ch/en.html). All material is available under a CC-BY 4.0 license.
+
 ## Objective
 
 The main aim of this course is to familiarize you with the many possibilities you have with Earth Engine. By its very nature, this course can only introduce the basic elements of this geospatial processing service. We hope that it sparks your enthusiasm to go the remaining mile.
