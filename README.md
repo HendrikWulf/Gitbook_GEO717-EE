@@ -60,7 +60,9 @@ For additional learning and inspiration, explore the [Earth Engine Tutorials and
 
 #### User summits
 
-[2024 user summit Geo for Good](https://earthoutreachonair.withgoogle.com/events/geoforgood24-dublin)
+[2025 user summit Geo for Good](https://earthoutreachonair.withgoogle.com/events/geoforgood25-nyc) ([2nd summit in Singapure](https://earthoutreachonair.withgoogle.com/events/geoforgood25-singapore))
+
+[2024 user summit Geo for Good](https://earthoutreachonair.withgoogle.com/events/geoforgood24-dublin) ([2nd summit in Sāo Paulo](https://earthoutreachonair.withgoogle.com/events/geoforgood24-saopaulo))
 
 [2023 user summit Geo for Good](https://earthoutreachonair.withgoogle.com/events/geoforgood23)
 
