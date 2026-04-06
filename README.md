@@ -736,7 +736,7 @@ $$
 {% hint style="success" %}
 This playtime session is on color palettes. Maybe not as fancy as basemaps, but still useful for styling.&#x20;
 
-[This script](https://code.earthengine.google.com/fc8ce5e3d3cabf17829f64006d54b3c9) lets you explore a variety of scientific and perceptual color palettes from popular libraries like ColorBrewer and Crameri. You can preview individual palettes and display entire series on the map. a great way to find palettes that support both aesthetics and interpretation.
+[This GitHub repository](https://github.com/gee-community/ee-palettes) provides an excellent overview of the various colour palettes available (e.g. ColorBrewer, Crameri) and explains how to incorporate them into Earth Engine. It's a great way to find palettes that support both aesthetics and interpretation.
 
 Choose a suitable palette for the BSI index of the previous task.
 {% endhint %}
