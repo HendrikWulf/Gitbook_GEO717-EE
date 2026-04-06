@@ -382,7 +382,7 @@ var dict = ee.Dictionary({five: 5, six: 6});
 
 #### Casting
 
-Sometimes, Earth Engine doesn't know the type of an object that gets returned from a method. You, as the programmer, know that the object and need to cast it into the correct container.
+Sometimes, Earth Engine doesn't know the type of an object that gets returned from a method. You, as the programmer, know the object and need to cast it into the correct container.
 
 ```javascript
 // Make a sequence
@@ -610,7 +610,7 @@ Map.addLayer(image, vizParams, 'false color infrared', true);
 Tasks:&#x20;
 
 * Display the image as a 'natural false color image' using the bands B7 (SWIR2), B5 (NIR) and B4 (red).
-* Adjust the maximim reflectance of each band to B7 = 0.25, B5 = 0.35, B4 = 0.25.&#x20;
+* Adjust the maximum reflectance of each band to B7 = 0.25, B5 = 0.35, B4 = 0.25.&#x20;
 * Use the command "Map.setCenter()" to define the display location (lon: 4.99, lat: 43.43) and zoom level (11).
 {% endhint %}
 
