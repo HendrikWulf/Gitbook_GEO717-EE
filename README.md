@@ -44,7 +44,7 @@ In this course, we will focus on the _JavaScript API_ and the Code Editor enviro
 
 #### Documentation
 
-The [Earth Engine Guides](https://developers.google.com/earth-engine/guides) provide structured, in-depth documentation to support users at all stages of their Earth Engine journey. These guides cover everything from initial setup to advanced data handling and analysis
+The [Earth Engine Guides](https://developers.google.com/earth-engine/guides) provide structured, in-depth documentation to support users at all stages of their Earth Engine journey. These guides cover everything from initial setup to [best practices](https://developers.google.com/earth-engine/guides/best_practices) and advanced data handling.
 
 For additional learning and inspiration, explore the [Earth Engine Tutorials and Community Content](https://developers.google.com/earth-engine/tutorials). This resource hub features a wide range of tutorials created by and for Earth Engine users, from beginner guides to advanced techniques.
 
