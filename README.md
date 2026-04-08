@@ -1309,21 +1309,25 @@ To display a geometry just by its outline without any fill color, you need to co
 ```javascript
 // Display a polygon by its outline
 
-// Define a polygon geometry using a list of coordinates
-var polygon2 = ee.Geometry.Polygon([
-  [[-50, -25], [50, -25], [50, 25], [-50, 25], [-50, 25]]
-]);
+// Define the polygon (edges are curved to follow the shortest path on the surface of the Earth)
+var polygon_geodesic = ee.Geometry.Polygon(
+  [[-50, -25], [50, -25], [50, 25], [-50, 25], [-50, 25]], null, true);
 
 // Create an empty image and paint the polygon's outline onto it.
 // - `byte()` sets the image type to 8-bit.
 // - `paint()` draws the polygon with a line width of 3 pixels and color value 1.
-var polygon_outline = ee.Image().byte().paint({
-  featureCollection: polygon2,
+var polygon_geodesic_outline = ee.Image().byte().paint({
+  featureCollection: polygon_geodesic,
   color: 1,
   width: 3
 });
-Map.centerObject(polygon2)
-Map.addLayer(polygon_outline, {palette: ['red']}, 'Polygon Outline')
+// Display the outline
+Map.setCenter(0, 0, 3)
+Map.addLayer(polygon_geodesic_outline, {palette: ['red']}, 'Polygon Outline')
+
+// Display a polygon by its outline as a linear Ring
+var outline = ee.Geometry.LinearRing(polygon_geodesic.coordinates().get(0))
+Map.addLayer(outline, {color: 'yellow'}, 'LinearRing Outline')
 ```
 
 ![Polygon Outline](<.gitbook/assets/Polygon Outline.png>)
