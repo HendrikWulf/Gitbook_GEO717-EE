@@ -396,6 +396,8 @@ In the Central Valley, also known as the Great Valley of California, 250 differe
 
 [Open in Code Editor](https://code.earthengine.google.com/?scriptPath=users%2Fwulf%2FGEO717%3AEE03_Classification%2F03e%20-%20Classification_Cropland_timeSeriesS1S2%20example) (Classification using Sentinel-1 and Sentinel-2 combined time series)
 
+[Open in Code Editor](https://code.earthengine.google.com/?scriptPath=users%2Fwulf%2FGEO717%3AEE03_Classification%2F03h%20-%20Classification_Cropland_embeddings%20example) (Classification using Alpha Earth satellite embeddings)
+
 Another classification example can be found in the JavaScript tutorial of the Earth Engine:
 
 {% embed url="https://developers.google.com/earth-engine/tutorials/community/classify-maizeland-ng?hl=nl" %}
