@@ -36,6 +36,10 @@ List of all (1.958) available Google Earth Engine Apps and user-specific App Gal
 
 ### Selected Apps
 
+#### Embeddings
+
+{% embed url="https://earthengine-ai.projects.earthengine.app/view/embedding-similarity-search#year=2024;zoom=6;lon=8.55008630061791;lat=47.3969739109749;clicked=true;" %}
+
 #### Hydrosphere
 
 {% embed url="https://global-surface-water.appspot.com/map" %}
